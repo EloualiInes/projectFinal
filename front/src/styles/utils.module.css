@@ -1,0 +1,20 @@
+.containerStars {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerStars > .containerStar {
+    height : 15px;
+    width : 15px;
+}
+
+.containerStars > .containerStar > img{
+    height :100%;
+    width :100%;
+    object-fit: contain;
+    object-position: center;
+
+}

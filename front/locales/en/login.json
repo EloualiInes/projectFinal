@@ -1,0 +1,9 @@
+{
+    "title" : "Welcome",
+    "subtitle" : "Welcome back",
+    "email" : "Email",
+    "password" : "Password",
+    "buttonLogin" : "Login",
+    "textRedirection" : "No account ? ",
+    "redirection" : "Sign up !"
+}

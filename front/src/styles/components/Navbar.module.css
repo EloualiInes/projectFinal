@@ -1,0 +1,86 @@
+.container{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    box-shadow: 2px 1px 1px rgba(0,0,0,0.4);
+}
+
+.containerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+}
+
+.containerLogo{
+    width: 20%;
+}
+
+.containerSearchBar{
+    width: 100%;
+    margin: 30px 0 10px 0;
+}
+
+.containerAuth{
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top : 25%;
+    right: 0;
+    transform: translate(-10%, -50%);
+   
+}
+
+.containerLogo,  .containerSearchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLogo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.containerLogo > img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-position: center;
+    -webkit-transform:scale(1.5); /* Safari et Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* Internet Explorer 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5)
+}
+
+.searchBar{
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    background-color: var(--colorPrimaire);
+    border-radius: 20px;
+    padding: 2px 5px;
+    color: white;
+}
+
+.searchBar img{
+    flex: 1;
+}
+.searchBar > input[type = text]{
+    flex: 10;
+    outline: none;
+    background-color: var(--colorPrimaire);
+    border-radius: 20px;
+    border: none;
+}
+
+.searchBar *::placeholder{
+    color: white;
+  }

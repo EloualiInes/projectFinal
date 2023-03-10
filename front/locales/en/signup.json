@@ -1,0 +1,10 @@
+{
+    "title" : "Welcome",
+    "subtitle" : "Join our community",
+    "email" : "Email",
+    "pseudo" : "Pseudo",
+    "password" : "Password",
+    "buttonSignUp" : "Sign up",
+    "textRedirection" : "Already an account ? ",
+    "redirection" : "Log in !"
+}

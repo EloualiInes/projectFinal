@@ -1,0 +1,44 @@
+.containerRecipe{
+    width : 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avisUsers {
+    width :100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avisUsers > .containerImgPrincipal {
+    width :200px;
+    height : 200px;
+}
+
+.avisUsers > .containerImgPrincipal > img{
+    height :100%;
+    width :100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.avisUsers .containerInfosNotes{
+    margin-top: 10px;
+    width :100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avisUsers .containerNotes{
+    display: flex;
+}
+
+.avisUsers .containerNotes > div{
+    margin-right: 10px;
+}
+

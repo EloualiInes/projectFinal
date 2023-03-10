@@ -1,0 +1,9 @@
+{
+    "title" : "Bienvenue",
+    "subtitle" : "Bon retour parmi nous !",
+    "email" : "Email",
+    "password" : "Mot de passe",
+    "buttonLogin" : "Connexion",
+    "textRedirection" : "Pas de compte ? ",
+    "redirection" : "Inscrivez-vous !"
+}
