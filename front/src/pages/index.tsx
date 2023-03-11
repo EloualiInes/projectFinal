@@ -11,6 +11,13 @@ import { useRouter } from 'next/navigation';
 import useTranslation from 'next-translate/useTranslation';
 import Thematic from '@/components/Thematic';
 import PreviewRecipe from '@/components/PreviewRecipe';
+import IconBreakfast from "@/images/iconBreakfast.svg";
+import IconDinner from "@/images/dinner.svg";
+import IconHealthy from "@/images/Healthy.svg";
+import IconLunch from "@/images/lunch.svg";
+import IconMeat from "@/images/meat.svg";
+import IconDessert from "@/images/sweet.svg";
+import Button from '@/components/Button';
 
 export default function Home() {
   const router = useRouter();
@@ -48,15 +55,28 @@ export default function Home() {
         <section className={styles.containerContent}>
           <h2>Inspiration thématique </h2>
           <div className={styles.containerThematics}>
-            <Thematic name={'Rapide'} img={rapide}/>
+            {/* <Thematic name={'Rapide'} img={rapide}/> */}
+            <Thematic name={t_home("textThematic.Breakfast")} img={IconBreakfast}/>
+            <Thematic name={t_home("textThematic.Lunch")} img={IconLunch}/>
+            <Thematic name={t_home("textThematic.Dinner")} img={IconDinner}/>
+            <Thematic name={t_home("textThematic.Meat")} img={IconMeat}/>
+            <Thematic name={t_home("textThematic.Healthy")} img={IconHealthy}/>
+            <Thematic name={t_home("textThematic.Dessert")} img={IconDessert}/>
           </div>
 
-          <div className={styles.containerPopularRecipes}>
+          {/* <div className={styles.containerPopularRecipes}>
             <h2>Les recettes du moment !</h2>
             <div className={styles.containerListRecipes}>
               {[...Array(35)].map((_) => getPopularRecipes())}
             </div>
             
+          </div> */}
+          
+          <div className={styles.containerRecipeRandom}>
+            <p>{t_home("RecipeRandom.text")}</p>
+            <Button text={t_home("RecipeRandom.textButton")} onPress={function (): void {
+              throw new Error('Function not implemented.');
+            } }/>
           </div>
         </section>
          

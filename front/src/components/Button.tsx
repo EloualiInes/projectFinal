@@ -6,7 +6,7 @@ type TypeButton = {
 
 export default function Button({text, style, onPress} : TypeButton){
     return (
-        <button style={style} onClick={onPress}>
+        <button className="size2" style={style} onClick={onPress}>
             {text}
         </button>
     )

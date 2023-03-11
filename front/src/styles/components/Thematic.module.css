@@ -1,6 +1,8 @@
 .thematic{
-    height: 48px;
-    width:48px;
+    height: 96px;
+    width:96px;
+    background-color: transparent;
+    border : none;
 }
 
 .containerImg{

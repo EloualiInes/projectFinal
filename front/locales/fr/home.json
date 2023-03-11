@@ -1,3 +1,16 @@
 {
-    "buttonBestRecipes" : "Voir les meilleures recettes d'internautes"
+    "buttonBestRecipes" : "Voir les meilleures recettes d'internautes",
+    "textThematic" : {
+        "Breakfast" : "Petit déjeuner",
+        "Lunch" : "Déjeuner",
+        "Dinner" : "Dîner",
+        "Meat" : "Viande",
+        "Healthy" : "Healthy",
+        "Dessert" : "Dessert"
+    },
+    "RecipeRandom": {
+        "text" : "Aucune idée ? Tentez une recette au hasard !",
+        "textButton" : "C'est parti !"
+    }
+   
 }

@@ -14,23 +14,34 @@ export default function Navbar(){
     const redirect = (login : boolean) => Router.push(`./auth/${login ? "login" : "signup"}`);
     return(
         <nav className={styles.container}>
-            <ul className={styles.containerMenu}>
-                <li className={styles.containerLogo}>
+            <div className={styles.containerMenu}>
+                <div className={styles.containerLogo}>
                     <Image src={logo} alt={""}/>
-                </li>
-                <li className={styles.containerAuth}>
+                </div>
+                <div className={styles.containerAuthentif}>
                     {/* <button>
                         <Image src={user} alt={""}/>
                     </button> */}
-                    <Button text={t("login")} style = {styleButton(0)} onPress={() => redirect(true) }/>
-                    <Button text={t("signUp")} style = {styleButton(1)} onPress={() => redirect(false)}/>
-                </li>
-            </ul>
+                    <div className={styles.containerAuth}>
+                        <Button text={t("login")} style = {styleButton(0)} onPress={() => redirect(true) }/>
+                        <Button text={t("signUp")} style = {styleButton(1)} onPress={() => redirect(false)}/>
+                    </div>
+                    <select name="choiceLanguage" id="choiceLanguage">
+                        <option value="fr">fr</option>
+                        <option value="en">en</option>
+                    </select>
+                </div>
+            </div>
+            
 
             <div className={styles.containerSearchBar}>
                 <div className={styles.searchBar}>
                         <Image src={search} alt={""}/>
-                        <input type="text" name="inputSearchBar" id="inputSearchBar" placeholder={t("placeholderSearchBar")} />
+                        <input type="text" 
+                            name="inputSearchBar" 
+                            id="inputSearchBar" 
+                            className="size2" 
+                            placeholder={t("placeholderSearchBar")} />
                 </div>    
             </div>
             

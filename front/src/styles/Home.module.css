@@ -32,8 +32,16 @@
 }
 
 .containerContent{
+  margin : 40px 20px;
   display : flex;
   flex-direction: column;
+}
+
+.containerThematics{
+  margin: 20px 0 ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .containerPopularRecipes{
@@ -47,4 +55,11 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.containerRecipeRandom{
+  display: flex;
+  flex-direction: column;
+  gap : 10px;
+  align-items: center;
 }

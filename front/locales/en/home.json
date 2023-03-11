@@ -1,4 +1,17 @@
 {
-    "buttonBestRecipes" : "See the best user recipes"
+    "buttonBestRecipes" : "See the best user recipes",
+    "textThematic" : {
+        "Breakfast" : "Breakfast",
+        "Lunch" : "Lunch",
+        "Dinner" : "Dinner",
+        "Meat" : "Meat",
+        "Healthy" : "Healthy",
+        "Dessert" : "Dessert"
+    },
+    "RecipeRandom": {
+        "text" : "No idea? Try a random recipe!",
+        "textButton" : "Let's go !"
+    }
+   
    
 }

@@ -12,12 +12,12 @@ export default function ButtonTextAndImage({text, img, imgRight, style} : TypeBu
        <button className={`${styles.containerButton}`} style={style}>
         {imgRight ?
             (<>
-                <p>{text}</p>
+                <p className='size2'>{text}</p>
                 <Image src={img} alt={''} />
             </>) 
             : (<>
                 <Image src={img} alt={''} />
-                <p>{text}</p>
+                <p className='size2'>{text}</p>
             </>)
         }
        </button>
