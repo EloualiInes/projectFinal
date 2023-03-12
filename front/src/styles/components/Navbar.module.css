@@ -58,8 +58,8 @@
 }
 
 .containerLogo{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .containerLogo > img {
@@ -103,10 +103,10 @@
 
 
 /* Media --- */
-
+/* 
 @media screen and (min-width : 1920px) {
     .containerLogo{
         max-width: 230px;
         max-height: 230px;
     }
-}
+} */
