@@ -30,4 +30,18 @@ body {
   font-size: 0.9rem;
 }
 
+@media screen and (min-width : 1920px) {
+  .size1{
+    font-size: 1.7rem;
+  }
+  
+  .size2{
+    font-size: 1.25rem;
+  }
+  
+  .size3{
+    font-size: 1.15rem;
+  }
+}
+
 

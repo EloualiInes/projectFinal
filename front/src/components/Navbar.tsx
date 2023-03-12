@@ -1,6 +1,6 @@
 import user from "@/images/iconUser.svg";
 import search from "@/images/iconSearch.svg";
-import logo from "@/images/logo.png";
+import logo from "@/images/logo.svg";
 import Image from "next/image";
 import styles from "@/styles/components/Navbar.module.css";
 import Button from "./Button";
@@ -11,7 +11,7 @@ import useTranslation from 'next-translate/useTranslation';
 
 export default function Navbar(){
     const {t} = useTranslation('globals');
-    const redirect = (login : boolean) => Router.push(`./auth/${login ? "login" : "signup"}`);
+    const redirect = (login : boolean) => Router.push(`http://localhost:3000/auth/${login ? "login" : "signup"}`);
     return(
         <nav className={styles.container}>
             <div className={styles.containerMenu}>

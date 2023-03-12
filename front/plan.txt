@@ -1,0 +1,9 @@
+* Finir front page main
+    * Version pc 
+        * Image logo a rogner
+    * Version mobile
+* Finir maquette page inscription
+* PAGE inscription front
+* page connexion front
+* back inscription / connexion
+* back recette 

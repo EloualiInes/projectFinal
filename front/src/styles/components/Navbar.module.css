@@ -15,9 +15,9 @@
     position: relative;
 }
 
-.containerLogo{
+/* .containerLogo{
     width: 20%;
-}
+} */
 
 .containerSearchBar{
     width: 100%;
@@ -58,20 +58,22 @@
 }
 
 .containerLogo{
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .containerLogo > img {
     object-fit: contain;
     max-width: 100%;
     max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     object-position: center;
-    -webkit-transform:scale(1.5); /* Safari et Chrome */
-    -moz-transform:scale(1.5); /* Firefox */
-    -ms-transform:scale(1.5); /* Internet Explorer 9 */
-    -o-transform:scale(1.5); /* Opera */
-    transform:scale(1.5)
+    /* -webkit-transform:scale(1.5); 
+    -moz-transform:scale(1.5); 
+    -ms-transform:scale(1.5);
+    -o-transform:scale(1.5); 
+    transform:scale(1.5);*/
 }
 
 .searchBar{
@@ -98,3 +100,13 @@
 .searchBar *::placeholder{
     color: white;
   }
+
+
+/* Media --- */
+
+@media screen and (min-width : 1920px) {
+    .containerLogo{
+        max-width: 230px;
+        max-height: 230px;
+    }
+}

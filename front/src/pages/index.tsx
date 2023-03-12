@@ -18,6 +18,7 @@ import IconLunch from "@/images/lunch.svg";
 import IconMeat from "@/images/meat.svg";
 import IconDessert from "@/images/sweet.svg";
 import Button from '@/components/Button';
+import { styleButton } from '@/utils/stylesFunction';
 
 export default function Home() {
   const router = useRouter();
@@ -74,7 +75,7 @@ export default function Home() {
           
           <div className={styles.containerRecipeRandom}>
             <p>{t_home("RecipeRandom.text")}</p>
-            <Button text={t_home("RecipeRandom.textButton")} onPress={function (): void {
+            <Button style={styleButton(1)} text={t_home("RecipeRandom.textButton")} onPress={function (): void {
               throw new Error('Function not implemented.');
             } }/>
           </div>
