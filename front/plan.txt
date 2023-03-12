@@ -1,6 +1,6 @@
 * Finir front page main
     * Version pc 
-        * Image logo a rogner
+        * Image logo a rogner 
     * Version mobile
 * Finir maquette page inscription
 * PAGE inscription front
